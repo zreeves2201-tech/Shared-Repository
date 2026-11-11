@@ -3,7 +3,7 @@
 	url = https://github.com/pal-robotics/aruco_ros.git
 [submodule "src/easy_handeye2"]
 	path = src/easy_handeye2
-	url = https://github.com/Interbotix/easy_handeye2.git
+	url = https://github.com/marcoesposito1988/easy_handeye2.git
 [submodule "src/realsense-ros"]
 	path = src/realsense-ros
 	url = https://github.com/IntelRealSense/realsense-ros.git
