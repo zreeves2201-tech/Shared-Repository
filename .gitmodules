@@ -1,0 +1,12 @@
+[submodule "src/aruco_ros"]
+	path = src/aruco_ros
+	url = https://github.com/pal-robotics/aruco_ros.git
+[submodule "src/easy_handeye2"]
+	path = src/easy_handeye2
+	url = https://github.com/Interbotix/easy_handeye2.git
+[submodule "src/realsense-ros"]
+	path = src/realsense-ros
+	url = https://github.com/IntelRealSense/realsense-ros.git
+[submodule "src/xarm_ros2"]
+	path = src/xarm_ros2
+	url = https://github.com/xArm-Developer/xarm_ros2.git
