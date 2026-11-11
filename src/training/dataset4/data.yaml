@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Pot']
+
+roboflow:
+  workspace: schools-workspace-nlbka
+  project: plants-fc7jg
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/schools-workspace-nlbka/plants-fc7jg/dataset/3

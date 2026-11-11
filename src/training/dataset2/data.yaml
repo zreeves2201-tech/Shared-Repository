@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Browncup', 'Whitecup']
+
+roboflow:
+  workspace: schools-workspace-nlbka
+  project: cups-fkwgy
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/schools-workspace-nlbka/cups-fkwgy/dataset/5

@@ -1,0 +1,8 @@
+string selected_class
+string target_frame
+int32 warmup_frames
+---
+bool success
+string message
+geometry_msgs/PointStamped detected_target
+geometry_msgs/PointStamped target
