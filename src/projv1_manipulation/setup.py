@@ -13,22 +13,18 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='user',
-    maintainer_email='user@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
-    extras_require={
-        'test': [
-            'pytest',
+    maintainer='rric',
+    maintainer_email='rric@todo.todo',
+    description='Cleaning manipulation package',
+    license='TODO',
+    tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+            'target_transform_node = projv1_manipulation.target_transform_node:main',
+            'moveit_pick_place_node = projv1_manipulation.moveit_pick_place_node:main',
+            'fake_moveit_pick_place_node = projv1_manipulation.fake_moveit_pick_place_node:main',
+            'gazebo_cup_marker_node = projv1_manipulation.gazebo_cup_marker_node:main',
+            'dirty_spot_cleaning_node = projv1_manipulation.dirty_spot_cleaning_node:main',
         ],
     },
-    entry_points={
-    'console_scripts': [
-       
-        'target_transform_node = projv1_manipulation.target_transform_node:main',
-        'moveit_pick_place_node = projv1_manipulation.moveit_pick_place_node:main',
-        'fake_moveit_pick_place_node = projv1_manipulation.fake_moveit_pick_place_node:main',
-        'gazebo_cup_marker_node = projv1_manipulation.gazebo_cup_marker_node:main',
-    ],
-},
 )
